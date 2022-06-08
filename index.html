@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script defer src="app.js"></script>
+    <script defer src="/ai/ai.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Bud</title>
+</head>
+<body>
+    <!-- header with logo and nav buttons -->
+    <header >
+      <h1 class="test-logo"> BUD </h1>
+      <nav >
+      </nav>
+    </header>
+
+    <!-- main content -->
+    <main>
+      
+      <!-- when no plants have been added-->
+      <div id="no-plants"></div>
+
+      <!-- Bud sensor -->
+      <div class="output">
+          <h3 id="sensor-bud"></h3>
+          <h3 id="naam"></h3> 
+          <!-- water data -->
+          <p id="vocht"></p>
+          <!-- temperature data -->
+          <p id="temp"></p>
+          <p id="changeTemp"></p>
+      </div>
+
+
+      <!-- add sensor button -->
+      <div>
+      <a href="/ai/ai.html" id="add-plant"> Add </a>
+      </div>
+
+    </main>
+  </body>
+</html>
