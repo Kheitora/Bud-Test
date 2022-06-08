@@ -17,14 +17,15 @@ function preload() {
 function setup() {
     createCanvas(1000, 1600);
     // Create the video
-    video = createCapture({
-        audio: false,
-        video: {
-          facingMode: {
-            exact: "environment"
-          } 
-        }
-      });
+    video = createCapture(VIDEO);
+    //     audio: false,
+    //     video: 
+    //     {
+    //       facingMode: {
+    //         exact: "environment"
+    //       } 
+    //     }
+    //   });
     video.hide();
     
     // STEP 2: Start classifying
